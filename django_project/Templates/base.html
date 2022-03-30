@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link type="text/css" rel="stylesheet" href="/static/css/bootstrap.min.css">
+<style type="text/css">
+    body {
+        text-align-last:center;
+    }
+    .tips {
+        opacity: 0.8;
+        position: absolute;
+        z-index: 1;
+        border-radius: 10px;
+        width: 180px;
+        height: 90px;
+        background-color: cornflowerblue;
+        left: 45%;
+        top: 35%;
+        display: none;
+    }
+</style>
+<body>
+<div class="tips" id="delete_confirm">
+    <div style="height: 40%; font-size: 15px;padding-top: 10%">你确定要删除吗？</div>
+    <div style="margin: 0 auto;width: 50%; height: 60%; padding-top: 10%">
+        <input type="button" class="btn btn-warning btn-xs" style="float: left" id="confirm" value="确定">
+        <input type="button" class="btn btn-default btn-xs" style="float: right" id="cancel" value="取消">
+    </div>
+</div>
+</body>
+</html>

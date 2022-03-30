@@ -1,0 +1,71 @@
+{% load filter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<script src="/static/js/jquery-3.5.1.min.js"></script>
+<script src="/static/js/jquery.cookie.js"></script>
+<script src="/static/js/index.js"></script>
+<link type="text/css" rel="stylesheet" href="/static/css/bootstrap.min.css">
+<style>
+    h3{display: inline-block;float: left}
+    #logout,#edit,#stores {float: right;margin-top: 10px;margin-right: 10px;}
+    .top_ {margin-top: 150px;margin-left: 10%}
+    .function_ {height: 40%; width: 50%;position: absolute;left: 25%;top:30%}
+    #lucky,#danmu {width: 50%;height: 40%;margin-top: 15%;font-size: 300%}
+    .col-sm-7 {display: none}
+</style>
+<body>
+{% include 'base.html' %}
+<div class="total_">
+    <div>
+        <h3>欢迎您,{{ loginedUser.user_name }}</h3>
+        <input type="button" class="btn btn-default" value="注销" id="logout">
+        <a href={% url 'stores' %}><input type="button" class="btn btn-default" value="个人物品" id="stores"></a>
+        <a href={% url 'edit_date' loginedUser.user_id  %}><input type="button" class="btn btn-default" value="个人中心" id="edit"></a>
+    </div>
+
+    <div class="col-sm-7 top_">
+        <h4>用户信息：</h4>
+        <table class="table table-hover">
+            <tr>
+                <td>#</td>
+                <td>Name</td>
+                <td>Account</td>
+                <td>Birthday</td>
+                <td>Sex</td>
+                <td>Operate</td>
+            </tr>
+            {% for item in user_info %}
+                <tr>
+                    <td style="line-height: 51px;">{{ forloop.counter }}</td>
+                    <td style="line-height: 51px;">{{ item.user_name }}</td>
+                    <td style="line-height: 51px;">{{ item.user_account }}</td>
+                    <td style="line-height: 51px;">{{ item.user_birthday|turn_date }}</td>
+                    <td style="line-height: 51px;">{{ item.user_sex }}</td>
+                    <td style="line-height: 51px;">
+                        <a href={% url 'edit_date' item.user_id  %}><input type="button" class="btn btn-warning" id="edit" value="编辑"></a>
+                        <input type="button" class="btn btn-danger" id="delete" delete_index="{{ item.user_id }}" value="删除">
+                    </td>
+                </tr>
+            {% endfor %}
+
+        </table>
+    </div>
+
+    <div class="function_">
+        <a href={% url 'lucky'%} ><input type="button" class="btn btn-default" id="lucky" value="抽&nbsp;&nbsp;&nbsp;奖"></a><a href={% url 'danmu'%} ><input type="button" class="btn btn-default" id="danmu" value="弹&nbsp;&nbsp;&nbsp;幕"></a>
+    </div>
+
+</div>
+<script>
+    var identifiction = '{{ loginedUser.user_account }}'
+     if(identifiction == 'admin'){
+         $('.function_').css('display','none')
+         $('.col-sm-7').css('display','block')
+     }
+</script>
+</body>
+</html>

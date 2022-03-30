@@ -1,0 +1,108 @@
+{
+  "uid" : "c1a013f47f2989b1",
+  "name" : "打开浏览器",
+  "fullName" : "test_tender.test_tender_with_xlsx.TestXlsx2#test_story_6",
+  "historyId" : "08e50cb76cce0231f3a1fda98529c9f0",
+  "time" : {
+    "start" : 1638237610693,
+    "stop" : 1638237612432,
+    "duration" : 1739
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1638237586049,
+      "stop" : 1638237586182,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8d4e0c72b839e75a",
+      "name" : "截图说明",
+      "source" : "8d4e0c72b839e75a.png",
+      "type" : "image/png",
+      "size" : 703807
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1638237675057,
+      "stop" : 1638237675057,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "报表"
+  }, {
+    "name" : "story",
+    "value" : "工程变更台账表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tender"
+  }, {
+    "name" : "suite",
+    "value" : "test_tender_with_xlsx"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestXlsx2"
+  }, {
+    "name" : "host",
+    "value" : "zhengyc-pc"
+  }, {
+    "name" : "thread",
+    "value" : "11700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tender.test_tender_with_xlsx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1a013f47f2989b1.json",
+  "parameterValues" : [ ]
+}

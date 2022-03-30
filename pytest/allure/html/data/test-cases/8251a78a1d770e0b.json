@@ -1,0 +1,171 @@
+{
+  "uid" : "8251a78a1d770e0b",
+  "name" : "登录",
+  "fullName" : "test_tender.test_tender_with_xlsx.TestXlsx1#test_story_2",
+  "historyId" : "8270002d2cec7526be94b040f554a228",
+  "time" : {
+    "start" : 1638237588437,
+    "stop" : 1638237591598,
+    "duration" : 3161
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1638237586049,
+      "stop" : 1638237586182,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1638237588437,
+        "stop" : 1638237589188,
+        "duration" : 751
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a21a968b666c821c",
+        "name" : "截图说明",
+        "source" : "a21a968b666c821c.png",
+        "type" : "image/png",
+        "size" : 1370139
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1638237589188,
+        "stop" : 1638237589872,
+        "duration" : 684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d4cf2a18d67615",
+        "name" : "截图说明",
+        "source" : "4d4cf2a18d67615.png",
+        "type" : "image/png",
+        "size" : 1369787
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1638237589882,
+        "stop" : 1638237591598,
+        "duration" : 1716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4087c86e5d9dcb5",
+        "name" : "截图说明",
+        "source" : "e4087c86e5d9dcb5.png",
+        "type" : "image/png",
+        "size" : 542525
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "db922080dc95ad52",
+      "name" : "log",
+      "source" : "db922080dc95ad52.txt",
+      "type" : "text/plain",
+      "size" : 1114
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1638237675057,
+      "stop" : 1638237675057,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "基础数据"
+  }, {
+    "name" : "story",
+    "value" : "工程变更统计表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tender"
+  }, {
+    "name" : "suite",
+    "value" : "test_tender_with_xlsx"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestXlsx1"
+  }, {
+    "name" : "host",
+    "value" : "zhengyc-pc"
+  }, {
+    "name" : "thread",
+    "value" : "11700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tender.test_tender_with_xlsx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8251a78a1d770e0b.json",
+  "parameterValues" : [ ]
+}

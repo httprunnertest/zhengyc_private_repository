@@ -1,0 +1,92 @@
+{
+  "uid" : "604ce496ebee5872",
+  "name" : "关闭浏览器",
+  "fullName" : "test_tender.test_tender_with_xlsx.TestXlsx2#test_story_11",
+  "historyId" : "27eb0981fbda7c331d96f16e6e7a6fc6",
+  "time" : {
+    "start" : 1638237631477,
+    "stop" : 1638237634018,
+    "duration" : 2541
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1638237586049,
+      "stop" : 1638237586182,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1638237675057,
+      "stop" : 1638237675057,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "报表"
+  }, {
+    "name" : "story",
+    "value" : "工程变更台账表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tender"
+  }, {
+    "name" : "suite",
+    "value" : "test_tender_with_xlsx"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestXlsx2"
+  }, {
+    "name" : "host",
+    "value" : "zhengyc-pc"
+  }, {
+    "name" : "thread",
+    "value" : "11700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tender.test_tender_with_xlsx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "604ce496ebee5872.json",
+  "parameterValues" : [ ]
+}

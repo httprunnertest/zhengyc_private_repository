@@ -1,0 +1,17 @@
+.side-nav__brand {
+  background: url('') no-repeat left center !important;
+  text-align: center;
+  height: 40px;
+  background-size: contain !important;
+  padding-left:0;
+  margin-left:0;
+}
+.side-nav__brand span{
+	display: none;
+}
+
+.side-nav__brand:after{
+	content: "郑昱川";
+	font-size:30px;
+ 
+}

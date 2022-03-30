@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "92.0.4515.107" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Production" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "http://www.toone.com.cn:7894/login" ],
+  "name" : "ApiUrl"
+}, {
+  "values" : [ "3.8" ],
+  "name" : "python.Version"
+} ]

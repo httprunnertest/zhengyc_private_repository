@@ -1,0 +1,2 @@
+INFO     root:base.py:145 正在进行选择一个大项>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ERROR    root:base.py:149 未找到元素('xpath', "(//span[text()='重大变更']/ancestor::td/preceding-sibling::td[last()])[2]//span[@class='el-checkbox__inner']")>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

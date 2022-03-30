@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "383209be48e7f6f8b0a33c023b3345a8",
+    "name" : "test_tender",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 19
+    }
+  } ]
+}

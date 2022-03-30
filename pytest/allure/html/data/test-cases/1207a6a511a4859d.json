@@ -1,0 +1,192 @@
+{
+  "uid" : "1207a6a511a4859d",
+  "name" : "打开菜单",
+  "fullName" : "test_tender.test_tender_with_xlsx.TestXlsx3#test_story_14",
+  "historyId" : "74690b2f4239a25e3f2dcf5580ad100c",
+  "time" : {
+    "start" : 1638237638924,
+    "stop" : 1638237644221,
+    "duration" : 5297
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1638237586049,
+      "stop" : 1638237586182,
+      "duration" : 133
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击项目管理菜单",
+      "time" : {
+        "start" : 1638237638935,
+        "stop" : 1638237640393,
+        "duration" : 1458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4084769cf2f2007b",
+        "name" : "截图说明",
+        "source" : "4084769cf2f2007b.png",
+        "type" : "image/png",
+        "size" : 184855
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击造价管理",
+      "time" : {
+        "start" : 1638237640404,
+        "stop" : 1638237641643,
+        "duration" : 1239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c99c9e94509f7b1",
+        "name" : "截图说明",
+        "source" : "2c99c9e94509f7b1.png",
+        "type" : "image/png",
+        "size" : 188144
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击造价台账",
+      "time" : {
+        "start" : 1638237641654,
+        "stop" : 1638237642900,
+        "duration" : 1246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b07cbad029bf6a77",
+        "name" : "截图说明",
+        "source" : "b07cbad029bf6a77.png",
+        "type" : "image/png",
+        "size" : 209562
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击工程变更统计表",
+      "time" : {
+        "start" : 1638237642910,
+        "stop" : 1638237644221,
+        "duration" : 1311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3aec2ccd441ed38f",
+        "name" : "截图说明",
+        "source" : "3aec2ccd441ed38f.png",
+        "type" : "image/png",
+        "size" : 147096
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bfcd07a36ac39259",
+      "name" : "log",
+      "source" : "bfcd07a36ac39259.txt",
+      "type" : "text/plain",
+      "size" : 1746
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1638237675057,
+      "stop" : 1638237675057,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "综合看板"
+  }, {
+    "name" : "story",
+    "value" : "工程变更统计表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tender"
+  }, {
+    "name" : "suite",
+    "value" : "test_tender_with_xlsx"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestXlsx3"
+  }, {
+    "name" : "host",
+    "value" : "zhengyc-pc"
+  }, {
+    "name" : "thread",
+    "value" : "11700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tender.test_tender_with_xlsx"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1207a6a511a4859d.json",
+  "parameterValues" : [ ]
+}

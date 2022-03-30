@@ -1,0 +1,280 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "基础数据",
+    "children" : [ {
+      "name" : "工程变更统计表",
+      "children" : [ {
+        "name" : "打开浏览器",
+        "uid" : "8034aa2b8ec432e5",
+        "parentUid" : "3b804145ecaf35558bf8d80d558d6f44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237586184,
+          "stop" : 1638237588430,
+          "duration" : 2246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "8251a78a1d770e0b",
+        "parentUid" : "3b804145ecaf35558bf8d80d558d6f44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237588437,
+          "stop" : 1638237591598,
+          "duration" : 3161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "打开菜单",
+        "uid" : "36536265ab0a4f93",
+        "parentUid" : "3b804145ecaf35558bf8d80d558d6f44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237591602,
+          "stop" : 1638237597111,
+          "duration" : 5509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增单据",
+        "uid" : "59c4acf60f86abe6",
+        "parentUid" : "3b804145ecaf35558bf8d80d558d6f44",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638237597116,
+          "stop" : 1638237607858,
+          "duration" : 10742
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关闭浏览器",
+        "uid" : "71209af9f38c7e19",
+        "parentUid" : "3b804145ecaf35558bf8d80d558d6f44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237608061,
+          "stop" : 1638237610690,
+          "duration" : 2629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b804145ecaf35558bf8d80d558d6f44"
+    } ],
+    "uid" : "e4cbbdf04812435133d02f71d7a96737"
+  }, {
+    "name" : "报表",
+    "children" : [ {
+      "name" : "工程变更台账表",
+      "children" : [ {
+        "name" : "打开浏览器",
+        "uid" : "c1a013f47f2989b1",
+        "parentUid" : "d18a689a81bb6269e8d015f66495f5f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237610693,
+          "stop" : 1638237612432,
+          "duration" : 1739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "b1d5aba422a29a0b",
+        "parentUid" : "d18a689a81bb6269e8d015f66495f5f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237612440,
+          "stop" : 1638237615390,
+          "duration" : 2950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "打开菜单",
+        "uid" : "314345e35ab83762",
+        "parentUid" : "d18a689a81bb6269e8d015f66495f5f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237615394,
+          "stop" : 1638237620726,
+          "duration" : 5332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增单据",
+        "uid" : "e272e33d972d63b2",
+        "parentUid" : "d18a689a81bb6269e8d015f66495f5f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638237620729,
+          "stop" : 1638237631454,
+          "duration" : 10725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "自定义操作",
+        "uid" : "1195650cf558129",
+        "parentUid" : "d18a689a81bb6269e8d015f66495f5f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237631474,
+          "stop" : 1638237631474,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关闭浏览器",
+        "uid" : "604ce496ebee5872",
+        "parentUid" : "d18a689a81bb6269e8d015f66495f5f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237631477,
+          "stop" : 1638237634018,
+          "duration" : 2541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d18a689a81bb6269e8d015f66495f5f8"
+    } ],
+    "uid" : "5799a8a79a85baac5d1e1e872f67ff57"
+  }, {
+    "name" : "综合看板",
+    "children" : [ {
+      "name" : "工程变更统计表",
+      "children" : [ {
+        "name" : "打开浏览器",
+        "uid" : "6b2dbb300cb8746d",
+        "parentUid" : "9ad9807f05155df38646fcfc21d9b8bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237634021,
+          "stop" : 1638237636030,
+          "duration" : 2009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "登录",
+        "uid" : "f8527f70f887c1af",
+        "parentUid" : "9ad9807f05155df38646fcfc21d9b8bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237636036,
+          "stop" : 1638237638920,
+          "duration" : 2884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "打开菜单",
+        "uid" : "1207a6a511a4859d",
+        "parentUid" : "9ad9807f05155df38646fcfc21d9b8bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237638924,
+          "stop" : 1638237644221,
+          "duration" : 5297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增单据",
+        "uid" : "ec6874fae1531137",
+        "parentUid" : "9ad9807f05155df38646fcfc21d9b8bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638237644225,
+          "stop" : 1638237654957,
+          "duration" : 10732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ad9807f05155df38646fcfc21d9b8bd"
+    }, {
+      "name" : "工程变更台账表",
+      "children" : [ {
+        "name" : "打开浏览器",
+        "uid" : "f532fc8952b4a670",
+        "parentUid" : "ea7fd88f06de46c85b916f0a3e203056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237654978,
+          "stop" : 1638237656559,
+          "duration" : 1581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "打开菜单",
+        "uid" : "894b423d2d841adb",
+        "parentUid" : "ea7fd88f06de46c85b916f0a3e203056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237656562,
+          "stop" : 1638237661771,
+          "duration" : 5209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增单据",
+        "uid" : "b770d49e89905b9f",
+        "parentUid" : "ea7fd88f06de46c85b916f0a3e203056",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638237661775,
+          "stop" : 1638237672520,
+          "duration" : 10745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "关闭浏览器",
+        "uid" : "599d26c67584ea84",
+        "parentUid" : "ea7fd88f06de46c85b916f0a3e203056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638237672539,
+          "stop" : 1638237675056,
+          "duration" : 2517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea7fd88f06de46c85b916f0a3e203056"
+    } ],
+    "uid" : "1002f9c07ec6cb42606fa528f52278a6"
+  } ]
+}

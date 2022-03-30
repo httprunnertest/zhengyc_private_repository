@@ -1,0 +1,1 @@
+INFO     root:test_tender_with_xlsx.py:31 删除旧文件

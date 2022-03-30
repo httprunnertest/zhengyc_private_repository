@@ -1,0 +1,14 @@
+INFO     root:base.py:127 正在进行输入用户名>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO     root:base.py:80 尝试进行文本输入
+INFO     root:base.py:70      对css方式定位元素的[name="account"]进行定位
+INFO     root:base.py:83      对css方式定位元素的[name="account"]输入值lixy
+INFO     root:base.py:127 正在进行输入密码>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO     root:base.py:80 尝试进行文本输入
+INFO     root:base.py:70      对css方式定位元素的[name="password"]进行定位
+INFO     root:base.py:83      对css方式定位元素的[name="password"]输入值lixy@999666
+INFO     root:base.py:145 正在进行点击登录>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO     root:base.py:89 尝试进行元素点击
+INFO     root:base.py:70      对xpath方式定位元素的//button[@class="el-button el-button--primary el-button--medium"]进行定位
+INFO     root:base.py:91      对xpath方式定位元素的//button[@class="el-button el-button--primary el-button--medium"]进行点击
+INFO     root:base.py:100 隐式等待10秒
+INFO     root:base.py:123 显示等待1秒

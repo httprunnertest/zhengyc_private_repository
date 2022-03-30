@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人物品</title>
+</head>
+<link type="text/css" rel="stylesheet" href="/static/css/bootstrap.min.css">
+<body>
+        <table class="table table-hover">
+            <tr>
+                <td>名称</td>
+                <td>详情</td>
+                <td>数量</td>
+            </tr>
+            {% for store in stores %}
+                <tr>
+                    <td style="line-height: 51px;">{{ store.store_name__award_name }}</td>
+                    <td style="line-height: 51px;"><img src='/static/image/{{ store.store_name__award_name }}.png'></td>
+                    <td style="line-height: 51px;">{{ store.store_num }}</td>
+                </tr>
+            {% endfor %}
+
+        </table>
+</body>
+</html>

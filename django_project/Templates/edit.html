@@ -1,0 +1,62 @@
+{% load filter %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑人员</title>
+</head>
+<link type="text/css" rel="stylesheet" href="/static/css/bootstrap.min.css">
+<script src="/static/js/jquery-3.5.1.min.js"></script>
+<script>
+     $(function () {
+         $("input[value='{{old_date.user_sex}}']").attr('checked', 'checked')
+     })
+</script>
+<body>
+<form method="post" class="form-horizontal col-sm-3 center-block" style="margin-top: 10px;margin-left: 38%">
+    <div class="form-group">
+        <label class="col-sm-2 control-label">昵称：</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="nickname_edit"  value="{{ old_date.user_name }}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">账号：</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="account_edit"  value="{{ old_date.user_account }}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">密码：</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="password_edit"  value="{{ old_date.user_password }}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">性别：</label>
+        <div class="col-sm-10" style="padding-left: 100px;padding-right: 100px;">
+            <div style="display: inline-block">
+                <input type="radio" name="sex_edit" value="男" style="zoom:120%;vertical-align: text-bottom">
+                <span style="font-size: 14px">男</span>
+            </div>
+            <div style="display: inline-block;float: right">
+                <input type="radio" name="sex_edit" value="女" style="zoom:120%;vertical-align: text-bottom">
+                <span style="font-size: 14px">女</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">生日：</label>
+        <div class="col-sm-10">
+            <input type="date" class="form-control" name="birthday_edit"  value="{{ old_date.user_birthday|turn_date }}">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <input type="submit" class="btn btn-default" value="提交">
+        </div>
+    </div>
+</form>
+</body>
+</html>

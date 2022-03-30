@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抽奖</title>
+</head>
+<script src="/static/js/jquery-3.5.1.min.js"></script>
+<script src="/static/js/jquery.cookie.js"></script>
+<script src="/static/js/lucky.js"></script>
+<link type="text/css" rel="stylesheet" href="/static/css/bootstrap.min.css">
+<style type="text/css">
+    .money_info_{float: right;margin-right: 10px}
+    .money_num {color: blue}
+    .result_ {width: 100%;height: 50%;text-align: center;margin-top: 14%}
+    .prize_picture {display: inline-block}
+    .prize_ {display: block;font-size: 18px;font-weight: bold}
+    .tip_ {display: none;margin-top: 30px;}
+    html {height: 100%}
+</style>
+<body>
+    <div class="operate_">
+        <input type="button" class="btn btn-default" value="1连抽" id="one_touch">
+        <input type="button" class="btn btn-default" value="10连抽" id="ten_touch">
+        <div class="money_info_">
+            <span>点券：</span><span class="money_num">{{ money }}</span>
+        </div>
+    </div>
+    <div class="result_">
+        <img class="prize_picture" src="">
+        <span class="prize_"></span>
+        <span class="tip_">点击屏幕继续</span>
+
+    </div>
+</body>
+</html>

@@ -1,1 +1,0 @@
-INFO     root:test_tender_with_xlsx.py:36 测试完成

@@ -3,6 +3,7 @@
 import os
 import sys
 # test merge
+# test one file
 
 def main():
     """Run administrative tasks."""

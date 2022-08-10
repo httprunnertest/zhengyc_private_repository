@@ -5,4 +5,5 @@ test cherry-pick2
 test cherry-pick33
 test cherrt-pick444
 123
+ccccccccccccccccccccccccccccccccc
 这是一个django架构的抽奖模拟器

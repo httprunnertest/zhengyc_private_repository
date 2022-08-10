@@ -5,6 +5,7 @@ import sys
 # test merge
 # test one file
 # test cherry-pick
+# aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_project.settings')
